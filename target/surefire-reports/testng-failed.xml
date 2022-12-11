@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Resume Learning Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Writing text in Excel(failed)" verbose="0">
+    <classes>
+      <class name="testCases.testOne">
+        <methods>
+          <include name="flushReport"/>
+          <include name="writeExcelTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.testOne -->
+    </classes>
+  </test> <!-- Writing text in Excel(failed) -->
+</suite> <!-- Failed suite [Resume Learning Test] -->
